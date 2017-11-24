@@ -5,7 +5,7 @@
         </a>
         <ul class="right">
             <li class="hide-on-med-and-down"><a href="programas.php">Programas</a></li>
-            <li class="hide-on-med-and-down"><a href="talleres.php">Tallers</a></li>
+            <li class="hide-on-med-and-down"><a href="talleres.php">talleres</a></li>
             <li class="hide-on-med-and-down"><a href="jornadas.php.php">Jornadas</a></li>
             <li>
                 <a class="dropdown-button" href="#" data-activates="nav-user" data-beloworigin="true" data-constrainwidth="false">
@@ -19,13 +19,13 @@
 
         <ul id="nav-user" class="side-nav">
             <li><a href="programas.php">Programas</a></li>
-            <li><a href="tallers.php">Tallers</a></li>
+            <li><a href="talleres.php">talleres</a></li>
             <li><a href="jornadas.php">Jornadas</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
             <li><a href="programas.php">Programas</a></li>
-            <li><a href="tallers.php">Tallers</a></li>
+            <li><a href="talleres.php">talleres</a></li>
             <li><a href="jornadas.php">Jornadas</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse black-text"><i class="material-icons">menu</i></a>

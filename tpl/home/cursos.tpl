@@ -14,7 +14,7 @@
         <div class="col s12 m4">
             <div class="icon-block">
                 <h2 class="center purple-text text-lighten-3"><i class="material-icons">settings</i></h2>
-                <h5 class="center">Tallers</h5>
+                <h5 class="center">talleres</h5>
                 <p class="light center">Voluptatem reprehenderit rerum eligendi, nam eius, dolor vero ex inventore dolores perferendis quisquam enim temporibus voluptates quia recusandae labore.</p>
                 <div class="row center">
                     <a href="talleres.php" id="download-button" class="btn-large waves-effect waves-light purple darken-1">Acceder</a>
