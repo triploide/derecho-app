@@ -32,8 +32,8 @@
         <div class="card">
             <div class="card-content">
                 <span class="card-title" style="font-size: 20px; font-weight: bold">{{programa.nombre}}</span>
-                <p><strong>Docentes:</strong> {{docentesToString}}</p>
-                <p><strong>Inicio:</strong> {{programa.inicio}}</p>
+                <p><strong>Docentes:</strong> {{docentes}}</p>
+                <p><strong>Inicio:</strong> {{inicio}}</p>
             </div>
             <div class="card-action">
                 <a href="http://www.derecho.uba.ar/graduados/programas-de-perfeccionamiento/{{programa.slug}}/+{{programa.id}}" class="teal-text">Ver programa</a>
@@ -41,8 +41,12 @@
         </div>
     </template>
 
+    <script>var programasUrl = 'http://www.derecho.uba.ar/graduados/api/programas/';</script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="/js/moment.min.js"></script>
+    <script src="/js/moment.locale.es.js"></script>
     <script src="/js/programas.js"></script>
 
   </body>

@@ -32,8 +32,8 @@
         <div class="card">
             <div class="card-content">
                 <span class="card-title" style="font-size: 20px; font-weight: bold">{{taller.nombre}}</span>
-                <p><strong>Docentes:</strong> {{docentesToString}}</p>
-                <p><strong>Inicio:</strong> {{getFechaToString()}}</p>
+                <p><strong>Docentes:</strong> {{docentes}}</p>
+                <p>{{getFechaToString()}}</p>
             </div>
             <div class="card-action">
                 <a href="http://www.derecho.uba.ar/graduados/talleres/{{taller.slug}}/+{{taller.id}}" class="teal-text">Ver taller</a>
@@ -41,8 +41,12 @@
         </div>
     </template>
 
+    <script>var talleresUrl = 'http://www.derecho.uba.ar/graduados/api/talleres/';</script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="/js/moment.min.js"></script>
+    <script src="/js/moment.locale.es.js"></script>
     <script src="/js/talleres.js"></script>
 
   </body>

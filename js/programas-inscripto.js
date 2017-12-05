@@ -46,8 +46,8 @@ new Vue({
 
         function success () {
             var active = dataBase.result;
-            var data = active.transaction(['programas'], "readwrite");
-            var store = data.objectStore('programas');
+            var data = active.transaction(['programas-inscripto'], "readwrite");
+            var store = data.objectStore('programas-inscripto');
             var index = store.index('id');
 
             index.openCursor().onsuccess = function (e) {
@@ -75,8 +75,8 @@ new Vue({
 
         function add (objecto) {
             var active = dataBase.result;
-            var data = active.transaction(["programas"], "readwrite");
-            var object = data.objectStore("programas");
+            var data = active.transaction(["programas-inscripto"], "readwrite");
+            var object = data.objectStore("programas-inscripto");
             var request = object.put(objecto);
         }
     }

@@ -69,7 +69,7 @@ new Vue({
             var active = dataBase.result;
             var object = active.createObjectStore("talleres", {keyPath: 'id', autoIncrement: true});
             object.createIndex('id', 'id', {unique: true});
-            var object = active.createObjectStore("programas", {keyPath: 'id', autoIncrement: true});
+            object = active.createObjectStore("programas", {keyPath: 'id', autoIncrement: true});
             object.createIndex('id', 'id', {unique: true});
             object = active.createObjectStore("talleres-inscripto", {keyPath: 'id', autoIncrement: true});
             object.createIndex('id', 'id', {unique: true});
@@ -79,8 +79,8 @@ new Vue({
 
         function success () {
             var active = dataBase.result;
-            var data = active.transaction(['talleres'], "readwrite");
-            var store = data.objectStore('talleres');
+            var data = active.transaction(['talleres-inscripto'], "readwrite");
+            var store = data.objectStore('talleres-inscripto');
             var index = store.index('id');
 
             index.openCursor().onsuccess = function (e) {
@@ -108,8 +108,8 @@ new Vue({
 
         function add (objecto) {
             var active = dataBase.result;
-            var data = active.transaction(["talleres"], "readwrite");
-            var object = data.objectStore("talleres");
+            var data = active.transaction(["talleres-inscripto"], "readwrite");
+            var object = data.objectStore("talleres-inscripto");
             var request = object.put(objecto);
         }
 

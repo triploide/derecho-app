@@ -56,3 +56,11 @@ footer.page-footer {
 .home .cursos h5{
     min-height: 55px
 }
+
+.side-nav li > a {
+    height: 52px;
+    line-height: 52px;
+    border-bottom: solid 1px #ccc;
+}
+
+.side-nav li > a.logo {border-bottom: none}
