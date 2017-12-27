@@ -36,7 +36,7 @@
                 <p>{{getFechaToString()}}</p>
             </div>
             <div class="card-action">
-                <a href="http://www.derecho.uba.ar/graduados/talleres/{{taller.slug}}/+{{taller.id}}" class="teal-text">Ver taller</a>
+                <a href="/curso.php" class="teal-text">Ver taller</a>
             </div>
         </div>
     </template>

@@ -8,12 +8,9 @@
             <li class="hide-on-med-and-down"><a href="/talleres.php">Talleres</a></li>
             <li class="hide-on-med-and-down"><a href="/jornadas.php.php">Jornadas</a></li>
             <li>
-                <a class="dropdown-button" href="#" data-activates="nav-user" data-beloworigin="true" data-constrainwidth="false">
+                <a href="/perfil.php">
                     <i class="material-icons">person</i>
                 </a>
-                <ul id="nav-user" class="dropdown-content">
-                    <li><a href="/perfil.php">Perfil</a></li>
-                </ul>
             </li>
         </ul>
 

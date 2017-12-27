@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <?php include 'tpl/partials/nav.tpl' ?>
+    <?php include 'tpl/nav/cursos.tpl' ?>
 
     <div class="container" id="app">
         <div class="section">
@@ -35,8 +35,9 @@
                 <p><strong>Docentes:</strong> {{docentes}}</p>
                 <p><strong>Inicio:</strong> {{inicio}}</p>
             </div>
-            <div class="card-action">
-                <a href="http://www.derecho.uba.ar/graduados/programas-de-perfeccionamiento/{{programa.slug}}/+{{programa.id}}" class="teal-text">Ver programa</a>
+            <div style="border-top: 1px solid rgba(160, 160, 160, 0.2)">
+                <a href="/curso.php" class="teal-text" style="display: inline-block; width: 49%; padding: 20px 0; text-align: center; border-right: solid 1px rgba(160, 160, 160, 0.2)">Programa</a>
+                <a href="/curso.php" class="teal-text" style="display: inline-block; width: 49%; padding: 20px 0; text-align: center;">Inscripión</a>
             </div>
         </div>
     </template>
