@@ -1,4 +1,4 @@
-Vue.component('taller',{
+Vue.component('taller', {
 
     template: '#taller-template',
 
