@@ -3,9 +3,9 @@
         <div style="margin-top: 20px">
             <img class="responsive-img circle" src="images/estudiante-universitario.jpg" style="width: 100px; border: solid 1px #ccc; padding: 10px">
             <p class="white-text" style="margin: 0; font-size: 18px">
-                <a href="/perfil.php" class="white-text">Daniel Villalba</a>
+                <a href="perfil.php" class="white-text">Daniel Villalba</a>
             </p>
-            <p style="margin: 0"><a href="/historial.php" class="white-text">Historial</a></p>
+            <p style="margin: 0"><a href="historial.php" class="white-text">Historial</a></p>
         </div>
     </li>
     <li><a href="programas.php">Programas</a></li>

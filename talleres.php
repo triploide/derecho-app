@@ -52,7 +52,7 @@
                 <p>{{getFechaToString()}}</p>
             </div>
             <div style="border-top: 1px solid rgba(160, 160, 160, 0.2)">
-                <a href="/curso.php" class="teal-text" style="display: inline-block; width: 49%; padding: 20px 0; text-align: center; border-right: solid 1px rgba(160, 160, 160, 0.2)">Taller</a>
+                <a href="curso.php" class="teal-text" style="display: inline-block; width: 49%; padding: 20px 0; text-align: center; border-right: solid 1px rgba(160, 160, 160, 0.2)">Taller</a>
                 <a href="#modal1" class="teal-text modal-trigger" style="display: inline-block; width: 49%; padding: 20px 0; text-align: center;">Inscripión</a>
             </div>
         </div>
@@ -62,10 +62,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <script src="/js/materialize.min.js"></script>
-    <script src="/js/moment.min.js"></script>
-    <script src="/js/moment.locale.es.js"></script>
-    <script src="/js/talleres.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/moment.locale.es.js"></script>
+    <script src="js/talleres.js"></script>
 
     <script>
         $(document).ready(function(){

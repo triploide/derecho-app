@@ -67,7 +67,7 @@
     <?php include 'tpl/partials/scripts.tpl' ?>
 
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <script src="/js/materialize.min.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script>
         $(document).ready(function() {
             $('select').material_select();

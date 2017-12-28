@@ -69,10 +69,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <script src="/js/moment.min.js"></script>
-    <script src="/js/moment.locale.es.js"></script>
-    <script src="/js/talleres-inscripto.js"></script>
-    <script src="/js/programas-inscripto.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/moment.locale.es.js"></script>
+    <script src="js/talleres-inscripto.js"></script>
+    <script src="js/programas-inscripto.js"></script>
 
   </body>
 </html>
