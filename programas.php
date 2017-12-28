@@ -5,14 +5,14 @@
 </head>
 <body>
 
-    <?php include 'tpl/nav/cursos.tpl' ?>
+    <?php include 'tpl/partials/nav.tpl' ?>
 
     <div class="container" id="app">
         <div class="section">
 
             <div class="row">
                 <div class="col sm12">
-                    <h3>Programas de perfecionamiento</h3>
+                    <h3>Programas de perfeccionamiento</h3>
                 </div>
             </div>
             

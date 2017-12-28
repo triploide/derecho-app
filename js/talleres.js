@@ -60,6 +60,19 @@ new Vue({
 
     beforeCompile: function () {
         var self = this;
+        $.ajax({
+            type: 'get',
+            url: talleresUrl,
+            dataType: 'jsonp',
+            success: function (talleres) {
+                self.talleres = talleres;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+
+        /*
         var DB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
         var dataBase = DB.open("object", 1);
         dataBase.onupgradeneeded = upgradeneeded;
@@ -112,9 +125,8 @@ new Vue({
             var object = data.objectStore("talleres");
             var request = object.put(objecto);
         }
+        */
 
         
     }
 });
-
-

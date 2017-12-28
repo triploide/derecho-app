@@ -27,6 +27,19 @@ new Vue({
 
     beforeCompile: function () {
         var self = this;
+        $.ajax({
+            type: 'get',
+            url: programasUrl,
+            dataType: 'jsonp',
+            success: function (programas) {
+                self.programas = programas;
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+
+        /*
         var DB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
         var dataBase = DB.open("object", 1);
         dataBase.onupgradeneeded = upgradeneeded;
@@ -79,6 +92,7 @@ new Vue({
             var object = data.objectStore("programas");
             var request = object.put(objecto);
         }
+        */
     }
 
 

@@ -7,5 +7,5 @@
                 </div>
             </div>
         </div>
-    <div class="parallax"><img src="images/banners/banner2.jpg" alt="Facultad de Derecho"></div>
+    <div class="parallax"><img src="images/banners/banner.3.jpg" alt="Facultad de Derecho"></div>
 </div>
